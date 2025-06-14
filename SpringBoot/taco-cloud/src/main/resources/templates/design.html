@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taco Cloud</title>
+</head>
+<body>
+    <h1>Design your taco!</h1>
+    <img th:src="@{/images/mexican-8147497_1280.webp}" width="450" height="300" alt="An image of a Taco..">
+    <form method="POST" th:object="${design}">
+        <div class="grid">
+            <div class="ingredient-group" id="wraps"></div>
+            <h3>Designate your wrap:</h3>
+            <div th:each="ingredient : ${wrap}">
+                <input name="ingredients" type="checkbox" th:value="${ingredient.id}"/>
+                <span th:text="${ingredient.name}">INGREDIENT</span>
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>
