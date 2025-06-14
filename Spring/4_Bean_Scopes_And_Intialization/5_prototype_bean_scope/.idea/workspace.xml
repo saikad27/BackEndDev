@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5049e12a-0383-4619-893e-e5aca7eb8f63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../JDBC/TEST JDBC/TEST JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JDBC/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/1_orm_demo/src/main/java/com/sai/orm_demo/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_Adding_Beans_To_Context_Projects/3_adding_bean_using_registerBean_method/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_Adding_Beans_To_Context_Projects/3_adding_bean_using_registerBean_method/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_Adding_Beans_To_Context_Projects/3_adding_bean_using_registerBean_method/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_Adding_Beans_To_Context_Projects/3_adding_bean_using_registerBean_method/src/main/java/org/sai/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1_Adding_Beans_To_Context_Projects/3_adding_bean_using_registerBean_method/src/test/java/org/sai/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2_Wiring_Beans_Within_Context/6_autowiring_bean_from_multiple_beans_of_same_type/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2_Wiring_Beans_Within_Context/6_autowiring_bean_from_multiple_beans_of_same_type/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2_Wiring_Beans_Within_Context/6_autowiring_bean_from_multiple_beans_of_same_type/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2_Wiring_Beans_Within_Context/6_autowiring_bean_from_multiple_beans_of_same_type/src/main/java/org/sai/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2_Wiring_Beans_Within_Context/6_autowiring_bean_from_multiple_beans_of_same_type/src/test/java/org/sai/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/.idea/3_Spring_Context_And_Abstraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/src/main/java/org/sai/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/1_contracts_non-framework/src/test/java/org/sai/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/src/main/java/org/sai/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_Spring_Context_And_Abstraction/2_contracts_and_abstraction_in_spring/src/test/java/org/sai/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/src/main/java/org/sai/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_eager_initialization/src/test/java/org/sai/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2vf9Ptnxjw5Q5rb7L7reIzVeptk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5049e12a-0383-4619-893e-e5aca7eb8f63" name="Changes" comment="" />
+      <created>1744525240953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744525240953</updated>
+      <workItem from="1744525241967" duration="203000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

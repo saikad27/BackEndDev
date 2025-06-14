@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome <span th:text="${username}"></span></h1>
+    <p>The total no. of logins : <span th:text="${loginCount}"></span></p>
+    <form method="post">
+        <input type="hidden" name="logout" value="Logout">
+    <button>Log Out</button>
+    </form>
+
+</body>
+</html>
