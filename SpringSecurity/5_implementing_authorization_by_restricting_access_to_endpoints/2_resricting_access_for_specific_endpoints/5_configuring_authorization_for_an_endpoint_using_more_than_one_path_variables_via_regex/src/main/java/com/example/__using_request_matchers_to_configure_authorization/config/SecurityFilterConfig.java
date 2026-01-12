@@ -7,6 +7,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.util.matcher.RegexRequestMatcher;
 
 @Configuration
 public class SecurityFilterConfig {
@@ -16,8 +17,8 @@ public class SecurityFilterConfig {
         httpSecurity
                 .httpBasic(Customizer.withDefaults())
                 .authorizeHttpRequests( c -> c
-                        .requestMatchers("/product/{code:^[0-9]*$}").permitAll()
-                        .anyRequest().denyAll()
+                        .requestMatchers(new RegexRequestMatcher(".*/(us|uk|ca)+/(en|fr).*",null)).authenticated()
+                        .anyRequest().hasAuthority("PREMIUM")
                 );
         return httpSecurity.build();
     }
