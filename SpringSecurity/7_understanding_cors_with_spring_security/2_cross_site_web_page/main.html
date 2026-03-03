@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+</head>
+<body bgcolor="coral">
+    <input type="button" onclick="fetchData()" value="Click" >
+    <script>
+        function fetchData(){
+            fetch("http://localhost:8080/test",{method:"POST",headers:{"Content-Type":"text/plain"}})
+            .then(response => response.text())
+            .then(response => console.log(response))
+            .catch(e => console.log(e));
+        }
+    </script>
+</body>
+</html>
