@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///Users/sai/Documents/BackEndDev/SpringCloud/spring-cloud-in-action-tutorials/chapter-3-setting-up-a-config-server/config-server/src/main/resources/config/licensingservice
