@@ -1,3 +1,4 @@
+example.property: "I AM A DEV PROPERTY OVERRIDE"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "false"
@@ -14,3 +15,4 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
+spring.jpa.hibernate.ddl-auto: "update"

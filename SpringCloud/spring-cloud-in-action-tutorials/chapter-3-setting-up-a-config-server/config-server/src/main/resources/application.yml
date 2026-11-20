@@ -4,12 +4,12 @@ server:
 spring:
   application:
     name: config-server
-  profiles:
-    active: native
   cloud:
     config:
       server:
         git:
+          uri: https://github.com/saikad27/BackEndDev/
+          searchPaths: SpringCloud/spring-cloud-in-action-tutorials/chapter-3-setting-up-a-config-server/config-server/src/main/resources/config/licensingservice
 #  cloud:
 #    config:
 #      server:
