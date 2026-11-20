@@ -9,5 +9,10 @@ spring:
   cloud:
     config:
       server:
-        native:
-          searchLocations: file:///Users/sai/Documents/BackEndDev/SpringCloud/spring-cloud-in-action-tutorials/chapter-3-setting-up-a-config-server/config-server/src/main/resources/config/licensingservice
+        git:
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: file:///Users/sai/Documents/BackEndDev/SpringCloud/spring-cloud-in-action-tutorials/chapter-3-setting-up-a-config-server/config-server/src/main/resources/config/licensingservice
+#
